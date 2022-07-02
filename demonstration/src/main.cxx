@@ -4,7 +4,9 @@
 */
 
 #include <thread>
+#ifndef _WIN32
 #include <unistd.h>
+#endif
 #include <random>
 #include <string>
 #include <chrono>
